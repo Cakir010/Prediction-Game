@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.first-div{
+    background-image: url(./matrix-356024_1920.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+font-size: 2rem;
+
+}
+.check{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(152, 167, 220);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 20px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+    
+    
+}
+.check:hover{
+    cursor: pointer;
+}
+
+
+.again{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(152, 167, 220);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 20px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.again:hover{
+    cursor: pointer;
+}
+
+
+.guess{
+    width: 15rem;
+    height: 3rem;
+    border: 2px solid red;
+}
